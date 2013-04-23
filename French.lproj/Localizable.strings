@@ -1,0 +1,23 @@
+Cancel = "Annuler";
+CannotDecompress = "Ne peut décompresser";
+Download = "Télécharger";
+EmptyField = "Champ vide";
+ExtractingFilesFrom = "Extraction des fichiers à partir de";
+FileAlreadyExists = "Le fichier %@ existe déjà.";
+MacOSRequiredToDecompress = "Mac OS %@ ou plus tard est exigé pour décomprimer les dossiers %@.";
+MoreInfo = "Plus d'info";
+NewVersionAvailable = "Une nouvelle version est disponible";
+NewVersionAvailableMsg = "La version %@ de Untar est disponible.";
+OK = "OK";
+Quit = "Quitter";
+RecentVersionMsg = "Vous avez la version la plus récente de Untar.";
+SelectFile = "Vous devez d'abord sélectionner un fichier à
+décompresser par Untar.";
+SoftwareUpToDate = "Le logiciel est à jour";
+UntarCanceled = "Untar annulé";
+UntarCanceledMsg = "Untar a été annulé.";
+UntarComplete = "Untar terminé";
+UntarCompleteMsg = "Votre fichier a été décompressé.";
+UpdateFailure = "Échec à trouver une mise-à-jour";
+UpdateFailureMsg = "Un problème est survenu durant la tentative de recherche d'une nouvelle version de Untar.  Edenwaith.com peut être indisponible temporairement ou votre réseau peut être en panne.";
+UtilityNotFound = "L'outil %@ est introuvable.";

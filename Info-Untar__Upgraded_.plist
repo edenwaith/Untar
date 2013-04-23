@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleDocumentTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleTypeExtensions</key>
+			<array>
+				<string>tar</string>
+			</array>
+			<key>CFBundleTypeIconFile</key>
+			<string>tar</string>
+			<key>CFBundleTypeName</key>
+			<string>Tape archive</string>
+			<key>CFBundleTypeRole</key>
+			<string>Viewer</string>
+		</dict>
+		<dict>
+			<key>CFBundleTypeExtensions</key>
+			<array>
+				<string>7z</string>
+			</array>
+			<key>CFBundleTypeIconFile</key>
+			<string>7z</string>
+			<key>CFBundleTypeName</key>
+			<string>7zip archive</string>
+			<key>CFBundleTypeRole</key>
+			<string>Viewer</string>
+		</dict>
+		<dict>
+			<key>CFBundleTypeExtensions</key>
+			<array>
+				<string>rar</string>
+			</array>
+			<key>CFBundleTypeIconFile</key>
+			<string>rar</string>
+			<key>CFBundleTypeName</key>
+			<string>Rar archive</string>
+			<key>CFBundleTypeRole</key>
+			<string>Viewer</string>
+		</dict>
+		<dict>
+			<key>CFBundleTypeExtensions</key>
+			<array>
+				<string>tgz</string>
+			</array>
+			<key>CFBundleTypeIconFile</key>
+			<string>tgz</string>
+			<key>CFBundleTypeName</key>
+			<string>Gzip tape archive</string>
+			<key>CFBundleTypeRole</key>
+			<string>Viewer</string>
+		</dict>
+		<dict>
+			<key>CFBundleTypeExtensions</key>
+			<array>
+				<string>tbz</string>
+				<string>tbz2</string>
+			</array>
+			<key>CFBundleTypeIconFile</key>
+			<string>tbz</string>
+			<key>CFBundleTypeName</key>
+			<string>Bzip2 tape archive</string>
+			<key>CFBundleTypeRole</key>
+			<string>Viewer</string>
+		</dict>
+		<dict>
+			<key>CFBundleTypeExtensions</key>
+			<array>
+				<string>zip</string>
+			</array>
+			<key>CFBundleTypeIconFile</key>
+			<string>zip</string>
+			<key>CFBundleTypeName</key>
+			<string>Zip archive</string>
+			<key>CFBundleTypeRole</key>
+			<string>Viewer</string>
+		</dict>
+		<dict>
+			<key>CFBundleTypeExtensions</key>
+			<array>
+				<string>svgz</string>
+				<string>gz</string>
+				<string>z</string>
+			</array>
+			<key>CFBundleTypeIconFile</key>
+			<string>gz</string>
+			<key>CFBundleTypeName</key>
+			<string>Gzip file</string>
+			<key>CFBundleTypeRole</key>
+			<string>Viewer</string>
+		</dict>
+		<dict>
+			<key>CFBundleTypeExtensions</key>
+			<array>
+				<string>Z</string>
+			</array>
+			<key>CFBundleTypeIconFile</key>
+			<string>Z</string>
+			<key>CFBundleTypeName</key>
+			<string>Compressed file</string>
+			<key>CFBundleTypeRole</key>
+			<string>Viewer</string>
+		</dict>
+		<dict>
+			<key>CFBundleTypeExtensions</key>
+			<array>
+				<string>taz</string>
+			</array>
+			<key>CFBundleTypeIconFile</key>
+			<string>taz</string>
+			<key>CFBundleTypeName</key>
+			<string>Compressed tape archive</string>
+			<key>CFBundleTypeRole</key>
+			<string>Viewer</string>
+		</dict>
+		<dict>
+			<key>CFBundleTypeExtensions</key>
+			<array>
+				<string>bz</string>
+				<string>bz2</string>
+			</array>
+			<key>CFBundleTypeIconFile</key>
+			<string>bz2</string>
+			<key>CFBundleTypeName</key>
+			<string>Bzip2</string>
+			<key>CFBundleTypeRole</key>
+			<string>Viewer</string>
+		</dict>
+	</array>
+	<key>CFBundleExecutable</key>
+	<string>Untar</string>
+	<key>CFBundleHelpBookFolder</key>
+	<string>Untar Help</string>
+	<key>CFBundleHelpBookName</key>
+	<string>Untar Help</string>
+	<key>CFBundleIconFile</key>
+	<string>Untar</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.edenwaith.untar</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.3.2</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>8</string>
+	<key>NSMainNibFile</key>
+	<string>MainMenu</string>
+	<key>NSPrincipalClass</key>
+	<string>NSApplication</string>
+</dict>
+</plist>

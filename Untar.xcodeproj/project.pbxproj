@@ -1,0 +1,858 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXApplicationTarget section */
+		29B97326FDCFA39411CA2CEA /* Untar */ = {
+			isa = PBXApplicationTarget;
+			buildConfigurationList = 84DF6C3D08A6FF0D001034E5 /* Build configuration list for PBXApplicationTarget "Untar" */;
+			buildPhases = (
+				29B97327FDCFA39411CA2CEA /* Headers */,
+				29B97328FDCFA39411CA2CEA /* Resources */,
+				29B9732BFDCFA39411CA2CEA /* Sources */,
+				29B9732DFDCFA39411CA2CEA /* Frameworks */,
+			);
+			dependencies = (
+			);
+			name = Untar;
+			productInstallPath = "$(HOME)/Applications";
+			productName = Untar;
+			productReference = 17587328FF379C6511CA2CBB /* Untar.app */;
+			productSettingsXML = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>
+<!DOCTYPE plist PUBLIC \"-//Apple Computer//DTD PLIST 1.0//EN\" \"http://www.apple.com/DTDs/PropertyList-1.0.dtd\">
+<plist version=\"1.0\">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleDocumentTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleTypeExtensions</key>
+			<array>
+				<string>tar</string>
+			</array>
+			<key>CFBundleTypeIconFile</key>
+			<string>tar</string>
+			<key>CFBundleTypeName</key>
+			<string>Tape archive</string>
+			<key>CFBundleTypeRole</key>
+			<string>Viewer</string>
+		</dict>
+		<dict>
+			<key>CFBundleTypeExtensions</key>
+			<array>
+				<string>7z</string>
+			</array>
+			<key>CFBundleTypeIconFile</key>
+			<string>7z</string>
+			<key>CFBundleTypeName</key>
+			<string>7zip archive</string>
+			<key>CFBundleTypeRole</key>
+			<string>Viewer</string>
+		</dict>
+		<dict>
+			<key>CFBundleTypeExtensions</key>
+			<array>
+				<string>rar</string>
+			</array>
+			<key>CFBundleTypeIconFile</key>
+			<string>rar</string>
+			<key>CFBundleTypeName</key>
+			<string>Rar archive</string>
+			<key>CFBundleTypeRole</key>
+			<string>Viewer</string>
+		</dict>
+		<dict>
+			<key>CFBundleTypeExtensions</key>
+			<array>
+				<string>tgz</string>
+			</array>
+			<key>CFBundleTypeIconFile</key>
+			<string>tgz</string>
+			<key>CFBundleTypeName</key>
+			<string>Gzip tape archive</string>
+			<key>CFBundleTypeRole</key>
+			<string>Viewer</string>
+		</dict>
+		<dict>
+			<key>CFBundleTypeExtensions</key>
+			<array>
+				<string>tbz</string>
+				<string>tbz2</string>
+			</array>
+			<key>CFBundleTypeIconFile</key>
+			<string>bzip2</string>
+			<key>CFBundleTypeName</key>
+			<string>Bzip2 tape archive</string>
+			<key>CFBundleTypeRole</key>
+			<string>Viewer</string>
+		</dict>
+		<dict>
+			<key>CFBundleTypeExtensions</key>
+			<array>
+				<string>zip</string>
+			</array>
+			<key>CFBundleTypeIconFile</key>
+			<string>zip</string>
+			<key>CFBundleTypeName</key>
+			<string>Zip archive</string>
+			<key>CFBundleTypeRole</key>
+			<string>Viewer</string>
+		</dict>
+		<dict>
+			<key>CFBundleTypeExtensions</key>
+			<array>
+				<string>svgz</string>
+				<string>gz</string>
+				<string>z</string>
+			</array>
+			<key>CFBundleTypeIconFile</key>
+			<string>gz</string>
+			<key>CFBundleTypeName</key>
+			<string>Gzip file</string>
+			<key>CFBundleTypeRole</key>
+			<string>Viewer</string>
+		</dict>
+		<dict>
+			<key>CFBundleTypeExtensions</key>
+			<array>
+				<string>Z</string>
+			</array>
+			<key>CFBundleTypeIconFile</key>
+			<string>Z</string>
+			<key>CFBundleTypeName</key>
+			<string>Compressed file</string>
+			<key>CFBundleTypeRole</key>
+			<string>Viewer</string>
+		</dict>
+		<dict>
+			<key>CFBundleTypeExtensions</key>
+			<array>
+				<string>taz</string>
+			</array>
+			<key>CFBundleTypeIconFile</key>
+			<string>taz</string>
+			<key>CFBundleTypeName</key>
+			<string>Compressed tape archive</string>
+			<key>CFBundleTypeRole</key>
+			<string>Viewer</string>
+		</dict>
+		<dict>
+			<key>CFBundleTypeExtensions</key>
+			<array>
+				<string>bz</string>
+				<string>bz2</string>
+			</array>
+			<key>CFBundleTypeIconFile</key>
+			<string>bzip2</string>
+			<key>CFBundleTypeName</key>
+			<string>Bzip2</string>
+			<key>CFBundleTypeRole</key>
+			<string>Viewer</string>
+		</dict>
+	</array>
+	<key>CFBundleExecutable</key>
+	<string>Untar</string>
+	<key>CFBundleHelpBookFolder</key>
+	<string>Untar Help</string>
+	<key>CFBundleHelpBookName</key>
+	<string>Untar Help</string>
+	<key>CFBundleIconFile</key>
+	<string>Untar</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.edenwaith.untar</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.3.1</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>7</string>
+	<key>NSMainNibFile</key>
+	<string>MainMenu</string>
+	<key>NSPrincipalClass</key>
+	<string>NSApplication</string>
+</dict>
+</plist>
+";
+		};
+/* End PBXApplicationTarget section */
+
+/* Begin PBXBuildFile section */
+		080E96DCFE201CFB7F000001 /* MainMenu.nib in Resources */ = {isa = PBXBuildFile; fileRef = 29B97318FDCFA39411CA2CEA /* MainMenu.nib */; };
+		089C165EFE840E0CC02AAC07 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
+		1058C7A3FEA54F0111CA2CBB /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		29B9732CFDCFA39411CA2CEA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		840C167805FC2B91000C5867 /* gnutar in Resources */ = {isa = PBXBuildFile; fileRef = 840C167705FC2B91000C5867 /* gnutar */; };
+		840C169005FC43BD000C5867 /* bzip2 in Resources */ = {isa = PBXBuildFile; fileRef = 840C168F05FC43BD000C5867 /* bzip2 */; };
+		840C592807388095002A3469 /* unrar in Resources */ = {isa = PBXBuildFile; fileRef = 840C592707388095002A3469 /* unrar */; };
+		8417A7A40B5B3C1200A35A3F /* bz2.icns in Resources */ = {isa = PBXBuildFile; fileRef = 8417A7A20B5B3C1100A35A3F /* bz2.icns */; };
+		8417A7A50B5B3C1200A35A3F /* tbz.icns in Resources */ = {isa = PBXBuildFile; fileRef = 8417A7A30B5B3C1200A35A3F /* tbz.icns */; };
+		8417A7A60B5B3C1200A35A3F /* bz2.icns in Resources */ = {isa = PBXBuildFile; fileRef = 8417A7A20B5B3C1100A35A3F /* bz2.icns */; };
+		8417A7A70B5B3C1200A35A3F /* tbz.icns in Resources */ = {isa = PBXBuildFile; fileRef = 8417A7A30B5B3C1200A35A3F /* tbz.icns */; };
+		8432743C0B75886800D4D2AF /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8432743B0B75886800D4D2AF /* Localizable.strings */; };
+		8432743D0B75886800D4D2AF /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8432743B0B75886800D4D2AF /* Localizable.strings */; };
+		84348949099ED58300FE00B4 /* UTController.h in Headers */ = {isa = PBXBuildFile; fileRef = F56B913A030B4DDC015A7683 /* UTController.h */; };
+		8434894B099ED58300FE00B4 /* MainMenu.nib in Resources */ = {isa = PBXBuildFile; fileRef = 29B97318FDCFA39411CA2CEA /* MainMenu.nib */; };
+		8434894C099ED58300FE00B4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
+		8434894D099ED58300FE00B4 /* Untar.icns in Resources */ = {isa = PBXBuildFile; fileRef = F51EE14203670BAE015A7AE8 /* Untar.icns */; };
+		8434894E099ED58300FE00B4 /* Untar Help in Resources */ = {isa = PBXBuildFile; fileRef = 84C710D00513D525002EF834 /* Untar Help */; };
+		8434894F099ED58300FE00B4 /* title.tif in Resources */ = {isa = PBXBuildFile; fileRef = 84B4573505E73B65000C5867 /* title.tif */; };
+		84348950099ED58300FE00B4 /* bzip2.icns in Resources */ = {isa = PBXBuildFile; fileRef = 84C8C9BD05F85AD6000C5867 /* bzip2.icns */; };
+		84348951099ED58300FE00B4 /* gz.icns in Resources */ = {isa = PBXBuildFile; fileRef = 84C8C9BE05F85AD6000C5867 /* gz.icns */; };
+		84348952099ED58300FE00B4 /* tar.icns in Resources */ = {isa = PBXBuildFile; fileRef = 84C8C9BF05F85AD6000C5867 /* tar.icns */; };
+		84348953099ED58300FE00B4 /* taz.icns in Resources */ = {isa = PBXBuildFile; fileRef = 84C8C9C005F85AD6000C5867 /* taz.icns */; };
+		84348954099ED58300FE00B4 /* tgz.icns in Resources */ = {isa = PBXBuildFile; fileRef = 84C8C9C105F85AD6000C5867 /* tgz.icns */; };
+		84348955099ED58300FE00B4 /* z.icns in Resources */ = {isa = PBXBuildFile; fileRef = 84C8C9C205F85AD6000C5867 /* z.icns */; };
+		84348956099ED58300FE00B4 /* zip.icns in Resources */ = {isa = PBXBuildFile; fileRef = 84C8C9C305F85AD6000C5867 /* zip.icns */; };
+		84348957099ED58300FE00B4 /* gnutar in Resources */ = {isa = PBXBuildFile; fileRef = 840C167705FC2B91000C5867 /* gnutar */; };
+		84348958099ED58300FE00B4 /* bzip2 in Resources */ = {isa = PBXBuildFile; fileRef = 840C168F05FC43BD000C5867 /* bzip2 */; };
+		84348959099ED58300FE00B4 /* unzip in Resources */ = {isa = PBXBuildFile; fileRef = 845139B40617DFED000C5867 /* unzip */; };
+		8434895A099ED58300FE00B4 /* unrar in Resources */ = {isa = PBXBuildFile; fileRef = 840C592707388095002A3469 /* unrar */; };
+		8434895B099ED58300FE00B4 /* rar.icns in Resources */ = {isa = PBXBuildFile; fileRef = 8499AF360766AB67002EF911 /* rar.icns */; };
+		8434895C099ED58300FE00B4 /* 7za in Resources */ = {isa = PBXBuildFile; fileRef = 84B21A0A096E227A007385A6 /* 7za */; };
+		8434895D099ED58300FE00B4 /* 7z.icns in Resources */ = {isa = PBXBuildFile; fileRef = 844053C809872E0200EA127E /* 7z.icns */; };
+		8434895F099ED58300FE00B4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		84348960099ED58300FE00B4 /* UTController.m in Sources */ = {isa = PBXBuildFile; fileRef = F56B913B030B4DDC015A7683 /* UTController.m */; };
+		84348962099ED58300FE00B4 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		844053C909872E0200EA127E /* 7z.icns in Resources */ = {isa = PBXBuildFile; fileRef = 844053C809872E0200EA127E /* 7z.icns */; };
+		845139B50617DFED000C5867 /* unzip in Resources */ = {isa = PBXBuildFile; fileRef = 845139B40617DFED000C5867 /* unzip */; };
+		8499AF370766AB67002EF911 /* rar.icns in Resources */ = {isa = PBXBuildFile; fileRef = 8499AF360766AB67002EF911 /* rar.icns */; };
+		84B21A0B096E227A007385A6 /* 7za in Resources */ = {isa = PBXBuildFile; fileRef = 84B21A0A096E227A007385A6 /* 7za */; };
+		84B4573605E73B65000C5867 /* title.tif in Resources */ = {isa = PBXBuildFile; fileRef = 84B4573505E73B65000C5867 /* title.tif */; };
+		84C710D80513D525002EF834 /* Untar Help in Resources */ = {isa = PBXBuildFile; fileRef = 84C710D00513D525002EF834 /* Untar Help */; };
+		84C8C9C405F85AD6000C5867 /* bzip2.icns in Resources */ = {isa = PBXBuildFile; fileRef = 84C8C9BD05F85AD6000C5867 /* bzip2.icns */; };
+		84C8C9C505F85AD6000C5867 /* gz.icns in Resources */ = {isa = PBXBuildFile; fileRef = 84C8C9BE05F85AD6000C5867 /* gz.icns */; };
+		84C8C9C605F85AD6000C5867 /* tar.icns in Resources */ = {isa = PBXBuildFile; fileRef = 84C8C9BF05F85AD6000C5867 /* tar.icns */; };
+		84C8C9C705F85AD6000C5867 /* taz.icns in Resources */ = {isa = PBXBuildFile; fileRef = 84C8C9C005F85AD6000C5867 /* taz.icns */; };
+		84C8C9C805F85AD6000C5867 /* tgz.icns in Resources */ = {isa = PBXBuildFile; fileRef = 84C8C9C105F85AD6000C5867 /* tgz.icns */; };
+		84C8C9C905F85AD6000C5867 /* z.icns in Resources */ = {isa = PBXBuildFile; fileRef = 84C8C9C205F85AD6000C5867 /* z.icns */; };
+		84C8C9CA05F85AD6000C5867 /* zip.icns in Resources */ = {isa = PBXBuildFile; fileRef = 84C8C9C305F85AD6000C5867 /* zip.icns */; };
+		F51EE14303670BAE015A7AE8 /* Untar.icns in Resources */ = {isa = PBXBuildFile; fileRef = F51EE14203670BAE015A7AE8 /* Untar.icns */; };
+		F56B913C030B4DDD015A7683 /* UTController.h in Headers */ = {isa = PBXBuildFile; fileRef = F56B913A030B4DDC015A7683 /* UTController.h */; };
+		F56B913D030B4DDD015A7683 /* UTController.m in Sources */ = {isa = PBXBuildFile; fileRef = F56B913B030B4DDC015A7683 /* UTController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		17587328FF379C6511CA2CBB /* Untar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; path = Untar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29B97319FDCFA39411CA2CEA /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/MainMenu.nib; sourceTree = "<group>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		8404CE5C0B742A8C00CECB37 /* zh_TW */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = zh_TW; path = zh_TW.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8404CE5D0B742AAE00CECB37 /* zh_TW */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = zh_TW; path = zh_TW.lproj/MainMenu.nib; sourceTree = "<group>"; };
+		8404CE610B742F8B00CECB37 /* French */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = French; path = French.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8404CEBD0B7439ED00CECB37 /* French */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = French; path = French.lproj/MainMenu.nib; sourceTree = "<group>"; };
+		840C167705FC2B91000C5867 /* gnutar */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = gnutar; sourceTree = "<group>"; };
+		840C168F05FC43BD000C5867 /* bzip2 */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = bzip2; sourceTree = "<group>"; };
+		840C592707388095002A3469 /* unrar */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = unrar; sourceTree = "<group>"; };
+		8417A7A20B5B3C1100A35A3F /* bz2.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = bz2.icns; sourceTree = "<group>"; };
+		8417A7A30B5B3C1200A35A3F /* tbz.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = tbz.icns; sourceTree = "<group>"; };
+		843274210B7587BA00D4D2AF /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/Localizable.strings; sourceTree = "<group>"; };
+		843274C00B7595DD00D4D2AF /* zh_TW */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = zh_TW; path = zh_TW.lproj/Localizable.strings; sourceTree = "<group>"; };
+		843274CC0B75963800D4D2AF /* French */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = French; path = French.lproj/Localizable.strings; sourceTree = "<group>"; };
+		84348967099ED58300FE00B4 /* Info-Untar__Upgraded_.plist */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Info-Untar__Upgraded_.plist"; sourceTree = "<group>"; };
+		84348968099ED58300FE00B4 /* Untar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Untar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		844053C809872E0200EA127E /* 7z.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = 7z.icns; sourceTree = "<group>"; };
+		845139B40617DFED000C5867 /* unzip */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = unzip; sourceTree = "<group>"; };
+		8499AF360766AB67002EF911 /* rar.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = rar.icns; sourceTree = "<group>"; };
+		84B21A0A096E227A007385A6 /* 7za */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = 7za; sourceTree = "<group>"; };
+		84B4573505E73B65000C5867 /* title.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = title.tif; sourceTree = "<group>"; };
+		84C710D00513D525002EF834 /* Untar Help */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; path = "Untar Help"; sourceTree = "<group>"; };
+		84C8C9BD05F85AD6000C5867 /* bzip2.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = bzip2.icns; sourceTree = "<group>"; };
+		84C8C9BE05F85AD6000C5867 /* gz.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = gz.icns; sourceTree = "<group>"; };
+		84C8C9BF05F85AD6000C5867 /* tar.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = tar.icns; sourceTree = "<group>"; };
+		84C8C9C005F85AD6000C5867 /* taz.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = taz.icns; sourceTree = "<group>"; };
+		84C8C9C105F85AD6000C5867 /* tgz.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = tgz.icns; sourceTree = "<group>"; };
+		84C8C9C205F85AD6000C5867 /* z.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = z.icns; sourceTree = "<group>"; };
+		84C8C9C305F85AD6000C5867 /* zip.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = zip.icns; sourceTree = "<group>"; };
+		F51EE14203670BAE015A7AE8 /* Untar.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = Untar.icns; sourceTree = "<group>"; };
+		F56B913A030B4DDC015A7683 /* UTController.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = UTController.h; sourceTree = "<group>"; };
+		F56B913B030B4DDC015A7683 /* UTController.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = UTController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		29B9732DFDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1058C7A3FEA54F0111CA2CBB /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84348961099ED58300FE00B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84348962099ED58300FE00B4 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				F56B913A030B4DDC015A7683 /* UTController.h */,
+				F56B913B030B4DDC015A7683 /* UTController.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				17587328FF379C6511CA2CBB /* Untar.app */,
+				84348968099ED58300FE00B4 /* Untar.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* Untar */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+				84348967099ED58300FE00B4 /* Info-Untar__Upgraded_.plist */,
+			);
+			name = Untar;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				29B97318FDCFA39411CA2CEA /* MainMenu.nib */,
+				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
+				8432743B0B75886800D4D2AF /* Localizable.strings */,
+				84C710D00513D525002EF834 /* Untar Help */,
+				84C8C9BC05F85AA2000C5867 /* Icons */,
+				84B4573505E73B65000C5867 /* title.tif */,
+				840C169105FC43C8000C5867 /* UNIX Utilities */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		840C169105FC43C8000C5867 /* UNIX Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				84B21A0A096E227A007385A6 /* 7za */,
+				840C168F05FC43BD000C5867 /* bzip2 */,
+				840C167705FC2B91000C5867 /* gnutar */,
+				845139B40617DFED000C5867 /* unzip */,
+				840C592707388095002A3469 /* unrar */,
+			);
+			name = "UNIX Utilities";
+			sourceTree = "<group>";
+		};
+		84C8C9BC05F85AA2000C5867 /* Icons */ = {
+			isa = PBXGroup;
+			children = (
+				844053C809872E0200EA127E /* 7z.icns */,
+				8417A7A20B5B3C1100A35A3F /* bz2.icns */,
+				84C8C9BD05F85AD6000C5867 /* bzip2.icns */,
+				84C8C9BE05F85AD6000C5867 /* gz.icns */,
+				8499AF360766AB67002EF911 /* rar.icns */,
+				84C8C9BF05F85AD6000C5867 /* tar.icns */,
+				84C8C9C005F85AD6000C5867 /* taz.icns */,
+				8417A7A30B5B3C1200A35A3F /* tbz.icns */,
+				84C8C9C105F85AD6000C5867 /* tgz.icns */,
+				F51EE14203670BAE015A7AE8 /* Untar.icns */,
+				84C8C9C205F85AD6000C5867 /* z.icns */,
+				84C8C9C305F85AD6000C5867 /* zip.icns */,
+			);
+			name = Icons;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		29B97327FDCFA39411CA2CEA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F56B913C030B4DDD015A7683 /* UTController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84348948099ED58300FE00B4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84348949099ED58300FE00B4 /* UTController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		84348947099ED58300FE00B4 /* Untar (Upgraded) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84348963099ED58300FE00B4 /* Build configuration list for PBXNativeTarget "Untar (Upgraded)" */;
+			buildPhases = (
+				84348948099ED58300FE00B4 /* Headers */,
+				8434894A099ED58300FE00B4 /* Resources */,
+				8434895E099ED58300FE00B4 /* Sources */,
+				84348961099ED58300FE00B4 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Untar (Upgraded)";
+			productInstallPath = "$(HOME)/Applications";
+			productName = Untar;
+			productReference = 84348968099ED58300FE00B4 /* Untar.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 84DF6C4108A6FF0D001034E5 /* Build configuration list for PBXProject "Untar" */;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+				zh_TW,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* Untar */;
+			projectDirPath = "";
+			targets = (
+				84348947099ED58300FE00B4 /* Untar (Upgraded) */,
+				29B97326FDCFA39411CA2CEA /* Untar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		29B97328FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				080E96DCFE201CFB7F000001 /* MainMenu.nib in Resources */,
+				089C165EFE840E0CC02AAC07 /* InfoPlist.strings in Resources */,
+				F51EE14303670BAE015A7AE8 /* Untar.icns in Resources */,
+				84C710D80513D525002EF834 /* Untar Help in Resources */,
+				84B4573605E73B65000C5867 /* title.tif in Resources */,
+				84C8C9C405F85AD6000C5867 /* bzip2.icns in Resources */,
+				84C8C9C505F85AD6000C5867 /* gz.icns in Resources */,
+				84C8C9C605F85AD6000C5867 /* tar.icns in Resources */,
+				84C8C9C705F85AD6000C5867 /* taz.icns in Resources */,
+				84C8C9C805F85AD6000C5867 /* tgz.icns in Resources */,
+				84C8C9C905F85AD6000C5867 /* z.icns in Resources */,
+				84C8C9CA05F85AD6000C5867 /* zip.icns in Resources */,
+				840C167805FC2B91000C5867 /* gnutar in Resources */,
+				840C169005FC43BD000C5867 /* bzip2 in Resources */,
+				845139B50617DFED000C5867 /* unzip in Resources */,
+				840C592807388095002A3469 /* unrar in Resources */,
+				8499AF370766AB67002EF911 /* rar.icns in Resources */,
+				84B21A0B096E227A007385A6 /* 7za in Resources */,
+				844053C909872E0200EA127E /* 7z.icns in Resources */,
+				8417A7A40B5B3C1200A35A3F /* bz2.icns in Resources */,
+				8417A7A50B5B3C1200A35A3F /* tbz.icns in Resources */,
+				8432743D0B75886800D4D2AF /* Localizable.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8434894A099ED58300FE00B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8434894B099ED58300FE00B4 /* MainMenu.nib in Resources */,
+				8434894C099ED58300FE00B4 /* InfoPlist.strings in Resources */,
+				8434894D099ED58300FE00B4 /* Untar.icns in Resources */,
+				8434894E099ED58300FE00B4 /* Untar Help in Resources */,
+				8434894F099ED58300FE00B4 /* title.tif in Resources */,
+				84348950099ED58300FE00B4 /* bzip2.icns in Resources */,
+				84348951099ED58300FE00B4 /* gz.icns in Resources */,
+				84348952099ED58300FE00B4 /* tar.icns in Resources */,
+				84348953099ED58300FE00B4 /* taz.icns in Resources */,
+				84348954099ED58300FE00B4 /* tgz.icns in Resources */,
+				84348955099ED58300FE00B4 /* z.icns in Resources */,
+				84348956099ED58300FE00B4 /* zip.icns in Resources */,
+				84348957099ED58300FE00B4 /* gnutar in Resources */,
+				84348958099ED58300FE00B4 /* bzip2 in Resources */,
+				84348959099ED58300FE00B4 /* unzip in Resources */,
+				8434895A099ED58300FE00B4 /* unrar in Resources */,
+				8434895B099ED58300FE00B4 /* rar.icns in Resources */,
+				8434895C099ED58300FE00B4 /* 7za in Resources */,
+				8434895D099ED58300FE00B4 /* 7z.icns in Resources */,
+				8417A7A60B5B3C1200A35A3F /* bz2.icns in Resources */,
+				8417A7A70B5B3C1200A35A3F /* tbz.icns in Resources */,
+				8432743C0B75886800D4D2AF /* Localizable.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		29B9732BFDCFA39411CA2CEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29B9732CFDCFA39411CA2CEA /* main.m in Sources */,
+				F56B913D030B4DDD015A7683 /* UTController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8434895E099ED58300FE00B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8434895F099ED58300FE00B4 /* main.m in Sources */,
+				84348960099ED58300FE00B4 /* UTController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C165CFE840E0CC02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C165DFE840E0CC02AAC07 /* English */,
+				8404CE610B742F8B00CECB37 /* French */,
+				8404CE5C0B742A8C00CECB37 /* zh_TW */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		29B97318FDCFA39411CA2CEA /* MainMenu.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29B97319FDCFA39411CA2CEA /* English */,
+				8404CEBD0B7439ED00CECB37 /* French */,
+				8404CE5D0B742AAE00CECB37 /* zh_TW */,
+			);
+			name = MainMenu.nib;
+			sourceTree = "<group>";
+		};
+		8432743B0B75886800D4D2AF /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				843274210B7587BA00D4D2AF /* English */,
+				843274CC0B75963800D4D2AF /* French */,
+				843274C00B7595DD00D4D2AF /* zh_TW */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84348964099ED58300FE00B4 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(FRAMEWORK_SEARCH_PATHS)",
+					"$(SYSTEM_LIBRARY_DIR)/PrivateFrameworks",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_VERSION_i386 = 4.0;
+				GCC_VERSION_ppc = 3.3;
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = "Info-Untar__Upgraded_.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = "";
+				MACOSX_DEPLOYMENT_TARGET_i386 = 10.4;
+				MACOSX_DEPLOYMENT_TARGET_ppc = 10.2;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				OTHER_LDFLAGS_ppc = "-prebind";
+				PRODUCT_NAME = Untar;
+				SDKROOT_i386 = /Developer/SDKs/MacOSX10.4u.sdk;
+				SDKROOT_ppc = /Developer/SDKs/MacOSX10.2.8.sdk;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = NO;
+			};
+			name = Development;
+		};
+		84348965099ED58300FE00B4 /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(FRAMEWORK_SEARCH_PATHS)",
+					"$(SYSTEM_LIBRARY_DIR)/PrivateFrameworks",
+				);
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_VERSION_i386 = 4.0;
+				GCC_VERSION_ppc = 3.3;
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = "Info-Untar__Upgraded_.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = "";
+				MACOSX_DEPLOYMENT_TARGET_i386 = 10.4;
+				MACOSX_DEPLOYMENT_TARGET_ppc = 10.2;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				OTHER_LDFLAGS_ppc = "-prebind";
+				PRODUCT_NAME = Untar;
+				SDKROOT_i386 = /Developer/SDKs/MacOSX10.4u.sdk;
+				SDKROOT_ppc = /Developer/SDKs/MacOSX10.2.8.sdk;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = NO;
+			};
+			name = Deployment;
+		};
+		84348966099ED58300FE00B4 /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(FRAMEWORK_SEARCH_PATHS)",
+					"$(SYSTEM_LIBRARY_DIR)/PrivateFrameworks",
+				);
+				GCC_VERSION_i386 = 4.0;
+				GCC_VERSION_ppc = 3.3;
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = "Info-Untar__Upgraded_.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = "";
+				MACOSX_DEPLOYMENT_TARGET_i386 = 10.4;
+				MACOSX_DEPLOYMENT_TARGET_ppc = 10.2;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				OTHER_LDFLAGS_ppc = "-prebind";
+				PRODUCT_NAME = Untar;
+				SDKROOT_i386 = /Developer/SDKs/MacOSX10.4u.sdk;
+				SDKROOT_ppc = /Developer/SDKs/MacOSX10.2.8.sdk;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = app;
+			};
+			name = Default;
+		};
+		84DF6C3E08A6FF0D001034E5 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(FRAMEWORK_SEARCH_PATHS)",
+					"$(SYSTEM_LIBRARY_DIR)/PrivateFrameworks",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				HEADER_SEARCH_PATHS = "";
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = "";
+				OPTIMIZATION_CFLAGS = "-O0";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = Untar;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = YES;
+			};
+			name = Development;
+		};
+		84DF6C3F08A6FF0D001034E5 /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(FRAMEWORK_SEARCH_PATHS)",
+					"$(SYSTEM_LIBRARY_DIR)/PrivateFrameworks",
+				);
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				HEADER_SEARCH_PATHS = "";
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = Untar;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = NO;
+			};
+			name = Deployment;
+		};
+		84DF6C4008A6FF0D001034E5 /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(FRAMEWORK_SEARCH_PATHS)",
+					"$(SYSTEM_LIBRARY_DIR)/PrivateFrameworks",
+				);
+				HEADER_SEARCH_PATHS = "";
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = Untar;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = app;
+			};
+			name = Default;
+		};
+		84DF6C4208A6FF0D001034E5 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				GCC_VERSION_i386 = 4.0;
+				GCC_VERSION_ppc = 3.3;
+				MACOSX_DEPLOYMENT_TARGET = "";
+				MACOSX_DEPLOYMENT_TARGET_i386 = 10.4;
+				MACOSX_DEPLOYMENT_TARGET_ppc = 10.2;
+				OTHER_LDFLAGS_ppc = "-prebind";
+				PREBINDING = NO;
+				SDKROOT = "";
+				SDKROOT_i386 = /Developer/SDKs/MacOSX10.4u.sdk;
+				SDKROOT_ppc = /Developer/SDKs/MacOSX10.2.8.sdk;
+				ZERO_LINK = NO;
+			};
+			name = Development;
+		};
+		84DF6C4308A6FF0D001034E5 /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				MACOSX_DEPLOYMENT_TARGET = "";
+				PREBINDING = NO;
+				SDKROOT = "";
+				ZERO_LINK = NO;
+			};
+			name = Deployment;
+		};
+		84DF6C4408A6FF0D001034E5 /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.3;
+				SDKROOT = /Developer/SDKs/MacOSX10.3.9.sdk;
+				ZERO_LINK = NO;
+			};
+			name = Default;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84348963099ED58300FE00B4 /* Build configuration list for PBXNativeTarget "Untar (Upgraded)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84348964099ED58300FE00B4 /* Development */,
+				84348965099ED58300FE00B4 /* Deployment */,
+				84348966099ED58300FE00B4 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+		84DF6C3D08A6FF0D001034E5 /* Build configuration list for PBXApplicationTarget "Untar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84DF6C3E08A6FF0D001034E5 /* Development */,
+				84DF6C3F08A6FF0D001034E5 /* Deployment */,
+				84DF6C4008A6FF0D001034E5 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+		84DF6C4108A6FF0D001034E5 /* Build configuration list for PBXProject "Untar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84DF6C4208A6FF0D001034E5 /* Development */,
+				84DF6C4308A6FF0D001034E5 /* Deployment */,
+				84DF6C4408A6FF0D001034E5 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

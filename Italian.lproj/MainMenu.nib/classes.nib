@@ -1,0 +1,36 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            ACTIONS = {
+                cancelExtraction = id; 
+                checkForNewVersion = id; 
+                clearConsole = id; 
+                getDir = id; 
+                getFile = id; 
+                goToFeedbackPage = id; 
+                goToProductPage = id; 
+                openHelp = id; 
+                toggleConsoleLog = id; 
+                uncompress = id; 
+            }; 
+            CLASS = UTController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                UTButton = NSButton; 
+                cancelButton = NSButton; 
+                consoleLogMenu = NSMenuItem; 
+                consoleLogPanel = id; 
+                dirField = NSTextField; 
+                fileField = NSTextField; 
+                progressSheet = id; 
+                "progress_msg" = NSTextField; 
+                spinningIndicator = NSProgressIndicator; 
+                textView = NSTextView; 
+                window = id; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }
+    ); 
+    IBVersion = 1; 
+}
